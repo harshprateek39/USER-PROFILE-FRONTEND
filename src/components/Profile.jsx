@@ -91,7 +91,7 @@ const Profile = () => {
         {/* posts */}
       <div className=" flex w-full">
         
-        <button className=" self-start md:text-2xl text-l font-semibold text-blue-400 bg-white px-3 rounded-md border-solid border-r-2 border-t-2 border-l-2 rounded-br-none whitespace-nowrap py-3   ">
+        <button className=" self-start md:text-2xl text-l font-semibold text-blue-400 bg-white px-3 rounded-md border-solid border-r border-t border-l rounded-br-none whitespace-nowrap py-3   ">
           {data.posts.length} Posts
         </button>
         <hr className=" w-full  border-1 border-gray-200 self-end"></hr>
