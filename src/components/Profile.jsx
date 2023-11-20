@@ -11,7 +11,7 @@ const Profile = () => {
     <div className=" flex flex-col ">
       {/* background image */}
       <div className="  bg-slate-800">
-        <img src={bgImg} className=" w-full md:h-72 h-44 object-cover   "></img>
+        <img src={data.backgroundIMG} className=" w-full md:h-72 h-44 object-cover   "></img>
       </div>
       {/* Profile area */}
       <div className=" grid grid-flow-row md:grid-cols-2 grid-cols-1  gap-1 sm:mx-auto     ">
@@ -25,7 +25,7 @@ const Profile = () => {
           </div>
           <div className=" flex flex-col self-start ">
             <div className="flex items-center gap-2 Lg:text-2xl text-l  justify-start   ">
-              <h1 className=" py-3 font-semibold whitespace-nowrap">
+              <h1 className=" py-3 font-semibold whitespace-nowrap md:text-2xl">
                 {data.name}
               </h1>
               <MdLightbulbCircle className=" text-blue-700  md:text-2xl rounded-full  font-semibold" />
@@ -33,16 +33,16 @@ const Profile = () => {
             </div>
             <div className="flex gap-3 justify-stretch ">
               <div className=" flex flex-col items-center grow">
-                <h1 className=" rounded-lg ring-1 ring-gray-400 md:text-2xl text-center text-sm font-bold w-full text-gray-400 shadow-none px-3 py-1">
+                <h1 className=" rounded-lg ring-1 ring-gray-500 md:text-2xl text-center text-sm font-bold w-full text-gray-500 shadow-none px-3 py-1">
                   {data.follower}
                 </h1>
-                <h1 className=" text-xs md:text:sm text-slate-400  ">Followers</h1>
+                <h1 className=" text-xs md:text:sm text-slate-500  ">Followers</h1>
               </div>
               <div className=" flex flex-col items-center grow">
-                <h1 className=" rounded-lg ring-1 ring-slate-400 md:text-2xl text-center text-sm font-bold w-full text-slate-400 shadow-none px-3 py-1">
+                <h1 className=" rounded-lg ring-1 ring-slate-500 md:text-2xl text-center text-sm font-bold w-full text-slate-500 shadow-none px-3 py-1">
                   {data.following}
                 </h1>
-                <h1 className=" text-xs md:text-sm text-slate-400  ">Following</h1>
+                <h1 className=" text-xs md:text-sm text-slate-500  ">Following</h1>
               </div>
             </div>
           </div>
