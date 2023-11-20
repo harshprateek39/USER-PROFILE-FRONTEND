@@ -9,7 +9,7 @@ PC View
 ![Screenshot 2023-11-20 230735](https://github.com/harshprateek39/USER-PROFILE-FRONTEND/assets/73929769/856d7963-4f5b-4f23-b19a-e768fba93c5a)
 
 ||||| --- Link  ---||||
-[https://user-profile-frontend-three.vercel.app/](url)
+[user-profile-frontend-three.vercel.app](url)
 
 ( Developed in react Js)
 -------
